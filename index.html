@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমাদের বন্ধুরা</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #ef8d38, #cfdef3);
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    .search-box {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .search-box input {
+      padding: 10px;
+      width: 300px;
+      border: 1px solid #aaa;
+      border-radius: 8px;
+    }
+    .friends-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+     background: linear-gradient(to right, #50ade8, #cfdef3);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      color: #2b2b2b;
+    }
+    .card p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+    .social-icons a {
+      margin: 0 8px;
+      text-decoration: none;
+      color: #555;
+      font-size: 18px;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #030000;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>আমাদের বন্ধুরা</h1>
+
+  <div class="search-box">
+    <input type="text" id="search" placeholder="নামে খুঁজুন...">
+  </div>
+
+  <div class="friends-container" id="friendsList">
+    <!-- বন্ধুর কার্ড এখানে বসবে -->
+    <div class="card">
+      <img src="asif.jpg" alt="Asif Ahmed Abir">
+      <h3>Name : Asif Ahmed Abir</h3>
+      <p>School : Ashraf High School,shibpur</p>
+      <p>Collage : Pabna Polytechnic Institute,pabna</p>
+      <p>Mobile : 01405973112</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/1HFuazrNX5/" target="_blank"><i class="fab fa-facebook"></i></a>
+       
+      </div>
+    </div>
+    <div class="card">
+      <img src="mehedi.jpg" alt="mehedi">
+      <h3>Name : Md. Mehedi Hasan</h3>
+      <p>School : Ashraf High School,shibpur</p>
+      <p>Collage : Govt. Edward University Collage,pabna</p>
+      <p>Mobile : 01964105226</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/1AZJ5Gx8zE/" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+      </div>
+    <!-- আরেকজন বন্ধুর কার্ড কপি করে বসাতে পারবেন -->
+  
+ <div class="card">
+      <img src="sawdi.jpg" alt="sawdi">
+      <h3>Name : Md. Sawdi Islam</h3>
+      <p>School : Ashraf High School,shibpur</p>
+      <p>Collage : Govt. Bulbul University Collage,pabna</p>
+      <p>Mobile : 01790033560</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/192SBK34Tr/" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+      </div>
+
+ 
+ <div class="card">
+      <img src="roni.jpg" alt="roni">
+      <h3>Name : Nazmul Roni</h3>
+      <p>School : Ashraf High School,shibpur</p>
+      <p>Collage : Govt. Bulbul University Collage,pabna</p>
+      <p>Mobile : 01728708877</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/18u7jWjEg8/" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+      </div>
+
+      <div class="card">
+      <img src="amanullah.jpg" alt="amanullah">
+      <h3>Name : Md. Amanullah Hassan</h3>
+      <p>School : Ashraf High School,shibpur</p>
+      <p>Collage : Gono Bishwabidyalay</p>
+      <p>Mobile : 01963503455</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/16u5RNaZox/" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+      </div>
+
+      <div class="card">
+      <img src="ridoy.jpg" alt="ridoy">
+      <h3>Name : Md. Ridoi Islam</h3>
+      <p>School : Ashraf High School,shibpur</p>
+      <p>Collage : Come in soon</p>
+      <p>Mobile : 01980527964</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/1FaAyRuAEz/" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+      </div>
+
+  <footer>
+    Made with ❤️ by CSTian-Boy07 <br>
+    &copy; 2025 | Email: cstianboy07@gmail.com
+  </footer>
+
+  <script>
+    const search = document.getElementById('search');
+    const friends = document.getElementById('friendsList').children;
+
+    search.addEventListener('input', () => {
+      const query = search.value.toLowerCase();
+      Array.from(friends).forEach(card => {
+        const name = card.querySelector('h3').textContent.toLowerCase();
+        card.style.display = name.includes(query) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
